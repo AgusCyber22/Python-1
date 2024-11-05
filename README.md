@@ -54,9 +54,8 @@ Update the file with the revised list of IP addresses:  <br/>
 <br />
 <img src="https://i.imgur.com/WAGyCrQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <br />
 <br />
-Use SELECT * FROM employees to show all columns on the employees table and use WHERE NOT department = ‘Information Technology’ ; to see all employees except for the IT department.<br />
+“\n” => new line separator || .join => convert list to string || “w” => write file (header) || .write = write file.<br />
 <br/>
-Summary : Here we can see how useful SQL query filtering for information gathering, indentifying and decision making in security issues. 
 
 
 <!--
